@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AWSSDK.S3" Version="4.*" />
+     <PackageReference Include="AWSSDK.CognitoIdentityProvider" Version="4.*" />
+    <PackageReference Include="Mapster" Version="7.4.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Http.Abstractions" Version="2.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\hoslog.customer.common\hoslog.customer.common.csproj" />
+    <ProjectReference Include="..\hoslog.customer.domain\hoslog.customer.domain.csproj" />
+    <ProjectReference Include="..\hoslog.customer.shared\hoslog.customer.shared.csproj" />
+  </ItemGroup>
+
+</Project>

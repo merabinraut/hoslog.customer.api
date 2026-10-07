@@ -1,0 +1,6 @@
+@hoslog.customer.api_HostAddress = http://localhost:5027
+
+GET {{hoslog.customer.api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
